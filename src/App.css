@@ -1,0 +1,82 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+h1 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 2.2rem;
+  color: white;
+  margin-bottom: 30px;
+}
+
+.github-icon {
+  width: 40px;
+  height: 40px;
+}
+
+.search-container {
+  display: flex;
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+  padding: 5px;
+}
+
+.search-container input {
+  border: none;
+  padding: 12px;
+  font-size: 16px;
+  width: 250px;
+  outline: none;
+}
+
+.search-container button {
+  background: rgb(76, 166, 240);
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.search-container button img {
+  width: 20px;
+  height: 20px;
+}
+
+.profile-card {
+  display: flex;
+  align-items: center;
+  background: white;
+  color: black;
+  padding: 20px;
+  border-radius: 16px;
+  margin-top: 30px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  max-width: 600px;
+  width: 100%;
+}
+
+.profile-image {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin-right: 20px;
+  border: 4px solid rgb(173, 218, 255);
+}
+
+.profile-info h2 {
+  color: rgb(136, 201, 255);
+  margin-bottom: 10px;
+}
+
+.error {
+  color: rgb(255, 90, 90);
+  margin-top: 10px;
+}

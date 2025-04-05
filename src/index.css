@@ -1,0 +1,40 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Estilos globais */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* Garante que o body ocupe ao menos a altura total da viewport */
+  background-color: black;
+  color: white;
+  font-family: Arial, sans-serif;
+  flex-direction: column;
+}
+
+h1 {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: white;
+  font-size: 35px;
+}
+
+/* Responsividade */
+@media (max-width: 600px) {
+  body {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  h1 {
+    font-size: 24px;
+    flex-direction: column;
+    text-align: center;
+  }
+}
